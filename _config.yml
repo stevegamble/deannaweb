@@ -1,0 +1,53 @@
+
+domain: stevegamble.github.io
+url: https://stevegamble.github.io
+baseurl: #/deannaweb
+
+title: "Deanna Rothwell"
+title_separator: "!"
+
+name: &name "Deanna Rothwell"
+description: &description "put description here"
+
+remote_theme: academicpages/academicpages.github.io
+
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jekyll-remote-theme
+
+whitelist:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-redirect-from
+
+author:
+  avatar: profile.jpg
+  name: Deanna Rothwell
+  bio: Director of Analytics at The Ottawa Hospital. Senior Investigator, Methodological and Implementation Research at The Ottawa Hospital Research Institute
+  location: Ottawa, Canada
+  employer: The Ottawa Hospital
+  uri: https://ohri.ca/en/find-researcher/deanna-rothwell
+  email: drothwell@ohri.ca
+
+  # academic sites
+  orcid: https://orcid.org/0009-0002-9692-1471
+  pubmed: https://pubmed.ncbi.nlm.nih.gov/?term=deanna+rothwell
+
+  # social media
+  linkedin: deanna-rothwell-52a50133
+
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
