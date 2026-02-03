@@ -51,3 +51,8 @@ defaults:
       layout: single
       author_profile: true
 
+analytics:
+  provider: "google-analytics-4"
+  google:
+    tracking_id: "G-GSKE7NJV01"
+
