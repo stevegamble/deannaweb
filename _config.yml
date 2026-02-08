@@ -10,6 +10,7 @@ name: &name "Deanna Rothwell"
 description: &description "put description here"
 
 remote_theme: academicpages/academicpages.github.io
+site_theme: default # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 
 plugins:
   - jekyll-feed
@@ -50,6 +51,19 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _talks
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: talk
+      author_profile: true
+      share: true
+
+collections:
+  talks:
+    output: true
+    permalink: /:collection/:path/
 
 analytics:
   provider: "google-analytics-4"
