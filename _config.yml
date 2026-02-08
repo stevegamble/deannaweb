@@ -39,6 +39,7 @@ author:
   # academic sites
   orcid: https://orcid.org/0009-0002-9692-1471
   pubmed: https://pubmed.ncbi.nlm.nih.gov/?term=deanna+rothwell
+  researchgate: https://www.researchgate.net/profile/Deanna-Rothwell
 
   # social media
   linkedin: deanna-rothwell-52a50133
@@ -58,7 +59,7 @@ defaults:
     values:
       layout: talk
       author_profile: true
-      share: true
+      share: false
 
 collections:
   talks:
