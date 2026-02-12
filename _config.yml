@@ -1,13 +1,13 @@
 
-domain: deannarothwell.com
-url: https://deannarothwell.com
+domain: www.deannarothwell.com
+url: https://www.deannarothwell.com
 baseurl: #/deannaweb
 
 title: "Deanna Rothwell"
 title_separator: "!"
 
 name: &name "Deanna Rothwell"
-description: &description "put description here"
+description: &description "Professional website of Deanna Rothwell, Director of Analytics at The Ottawa Hospital"
 
 remote_theme: academicpages/academicpages.github.io
 site_theme: default # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"

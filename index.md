@@ -1,9 +1,7 @@
 ---
-permalink: /home/
+permalink: /
 layout: single
 author_profile: true
-redirect_from:
-  - /
 ---
 
 I am a seasoned leader in healthcare data analytics with over 30 years of experience transforming health data into actionable insights for decision-making and research. I hold a Master’s degree in Statistics and currently serve as Director of Analytics at The Ottawa Hospital and a Senior Investigator at The Ottawa Hospital Research Institute. I am passionate about democratizing data for leaders, researchers, and innovators to improve care quality, advance research, and support innovation.
